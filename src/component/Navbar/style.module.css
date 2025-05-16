@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+  gap: 50px;
+}
+
+.mainLogo {
+  width: 71.45px;
+  height: 60px;
+  padding: 5px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.navList {
+  display: flex;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px 0;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.navList li {
+  position: relative;
+  padding: 0 10px;
+}
+
+.navList li:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #999;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navList li a:hover {
+  color: #007bff;
+}
+
+.imgLogo {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.imgLogo img {
+  width: 33px;
+  height: 22.64px;
+  margin: 0 5px;
+  display: block;
+}
